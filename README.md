@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Open a terminal and navigate to inside the root folder of the project.
 3. Use the command 'npm install' to install any missing plugins needed by the site.
 4. Type 'npm start' to start the site running. Leave the terminal open while viewing the site or it will stop running.
-5. In a browser window, navigate to 'localhost:4242' to access the site.
+5. In a browser window, navigate to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work.
 6. 
 7. 
 8. 
@@ -26,9 +26,11 @@ These instructions will get you a copy of the project up and running on your loc
 10. (╯°□°）╯︵ ┻━┻
 
 ## Built With
-* [JavaScript]() - .
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A dynamic programming language generally used to add dynamic features to a website.
 * [React](https://reactjs.org/) - A JavaScript library.
 * [ReactStrap](https://reactstrap.github.io/) - Easy to use React Bootstrap 4 components.
+* [React-Router-Dom](https://www.npmjs.com/package/react-router-dom) - This is a module of the React Router package.
+* [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ## Notes
 
