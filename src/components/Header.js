@@ -15,7 +15,7 @@ export default class Header extends Component {
             </a>
             <nav>
                 <ul>
-                    <li><a href="/" class="selected">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/accessibility">Accessibility</a></li>
                     <li><a href="/AboutMe">About Me</a></li>
                     <li><a href="/Contact">Contact</a></li>
