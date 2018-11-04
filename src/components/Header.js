@@ -8,7 +8,20 @@ export default class Header extends Component {
   
   render () {                                   
       return (
-        <header></header>
+        <header>
+          <a href="index.html" id="logo">
+                <h1>Elizabeth Gray</h1>
+                <h2>Developer in Training</h2>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/" class="selected">Home</a></li>
+                    <li><a href="/accessibility">Accessibility</a></li>
+                    <li><a href="/AboutMe">About Me</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
       )
    }
 }
