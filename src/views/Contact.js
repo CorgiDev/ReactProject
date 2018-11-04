@@ -29,7 +29,7 @@ export default class Contact extends Component {
 							<li className="linkedin"><a href="https://www.linkedin.com/in/egraytech/">EGrayTech LinkedIn Profile</a></li>
 							<li className="mail"><a href="mailto:corgidev@outlook.com?subject=Email from CorgiDev site">corgidev@outlook.com</a></li>
 							<li className="twitter"><a href="https://twitter.com/intent/tweet?screen_name=egraytech">@egraytech</a></li>
-							<li className="github"><a href="https://github.com/EGrayTech" target="_blank">EGrayTech GitHub Profile</a></li>
+							<li className="github"><a href="https://github.com/EGrayTech" target="_blank" rel="noopener noreferrer">EGrayTech GitHub Profile</a></li>
 						</ul>
 					</section>
 
