@@ -1,0 +1,63 @@
+/******************************************
+PAGE: CONTACT
+******************************************/
+
+/**************************
+Geeral Styling
+*************************/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+/*
+.contact-info li.phone a {
+    background-image: url('../components/img/android-color.png');
+}
+
+.contact-info li.linkedin a {
+    background-image: url('../components/img/linkedin-color.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../components/img/google-color.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../components/img/twitter-color.png');
+}
+
+.contact-info li.github a {
+    background-image: url('../components/img/github-color.png');
+}
+*/
+
+/**************************
+Form Styling
+*************************/
+.formLabel {
+    font-weight: bold;
+    color:#714f02;
+}
+
+.formTitle {
+    font-weight: bold;
+    color:#714f02;
+}
+
+.formHeader {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#714f02;
+}

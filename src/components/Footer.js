@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import './styles/responsive.css';
 
 export default class Footer extends Component { 
   state = { 
