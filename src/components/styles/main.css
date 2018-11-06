@@ -1,0 +1,336 @@
+/******************************************
+How to Include chosen Google Fonts:
+
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+******************************************/
+
+/******************************************
+GENERAL
+******************************************/
+/*Wrapper section styles. Includes everything under the nav down to the footer.*/
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+
+
+/***********************************
+Makes footer go to bottom of page
+section {
+    flex: 1;
+}
+***********************************/
+
+a {
+    text-decoration: none; /** Removes link styling. **/
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+.tabbed {
+    padding-left: 1.5em;
+}
+
+/******************************************
+HEADING
+******************************************/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+/*Logo encompasses just the part where it says my name and a title.*/
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+
+/******************************************
+NAVIGATION
+******************************************/
+nav {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-weight: 700;
+    padding: 15px 10px;
+}
+
+
+
+/******************************************
+FOOTER
+******************************************/
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #b2b2b2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 20%;
+}
+
+.attribution {
+    margin: 30px 0 15px 0;
+}
+
+
+
+/******************************************
+PAGE: PORTFOLIO
+******************************************/
+#gallery, 
+#gallery figure, 
+#gallery figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+/************************
+
+#gallery li a p {
+    margin: 0;
+    padding 5%;
+    font-size: 0.80em;
+    color: #666;
+    text-align: center;
+}
+
+************************/
+
+#gallery img {
+    border-radius: 25px;
+    border: 2px solid #f1c40f;
+}
+
+#gallery figcaption {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.80em;
+    color: #666;
+    text-align: center;
+}
+
+
+
+/******************************************
+PAGE: ABOUT
+******************************************/
+.profile-photo {
+    display: block; /** Using Block allows us to center the image using margins. Default is inline. **/
+    max-width: 175px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+    border: 2px solid #f1c40f;
+}
+
+
+
+/******************************************
+PAGE: FORMS
+******************************************/
+.formLabel {
+    font-weight: bold;
+    color:#714f02;
+}
+
+.formTitle {
+    font-weight: bold;
+    color:#714f02;
+}
+
+.formHeader {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#714f02;
+}
+
+
+
+/******************************************
+PAGE: CONTACT
+******************************************/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/android-color.png');
+}
+
+.contact-info li.linkedin a {
+    background-image: url('../img/linkedin-color.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/google-color.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twitter-color.png');
+}
+
+.contact-info li.github a {
+    background-image: url('../img/github-color.png');
+}
+
+
+
+/******************************************
+COLORS
+******************************************/
+
+/******************************************
+Colors chosen:
+Dark brown: #7D6608
+Dark golden yellow: #f1c40f;
+Golden yellow: #ffe316;
+
+#d4c20f
+******************************************/
+
+/*Site body*/
+ body {
+     background-color: #f0f5f5;
+     color: #999;
+ }
+
+/*Header section*/
+ 
+ header {
+     
+     /*******************
+     background: #64b47b;
+     border-color: #599a68;
+     *******************/
+     border-color: #f1c40f;
+     background: #ffd011;
+ }
+
+/*nav bkgrd on mobile*/
+ nav {
+     /*******************
+     background: #599a68;
+     *******************/
+     background: #f1c40f;
+ }
+
+/*Logo text*/
+ h1, h2 {
+     color: #fff;
+ }
+
+.mainHeadline {
+    color:#714f02;
+    text-align: center;
+}
+
+/*links*/
+a {
+    color: #7d6608;
+}
+
+/*nav styles*/
+ nav a, nav a:visited {
+     color: #fff;
+ }
+
+ nav a.selected, nav a:hover {
+     color: #7d6608;
+ }
+
+.error {
+    color: darkred;
+    font-weight: bold;
+}
+
+p {
+    color:#714f02;
+}
+/**
+ nav a:hover span {
+     background-color: black;
+     padding: 10px;
+ }
+
+ **/

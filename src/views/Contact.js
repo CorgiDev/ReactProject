@@ -25,11 +25,11 @@ export default class Contact extends Component {
 						
 						<h3>Contact Details</h3>
 						<ul className="contact-info">
-							<li className="phone"><a href="tel:502-899-2384">(502)899-2384 (work)</a></li>
-							<li className="linkedin"><a href="https://www.linkedin.com/in/egraytech/">EGrayTech LinkedIn Profile</a></li>
-							<li className="mail"><a href="mailto:corgidev@outlook.com?subject=Email from CorgiDev site">corgidev@outlook.com</a></li>
-							<li className="twitter"><a href="https://twitter.com/intent/tweet?screen_name=egraytech">@egraytech</a></li>
-							<li className="github"><a href="https://github.com/EGrayTech" target="_blank" rel="noopener noreferrer">EGrayTech GitHub Profile</a></li>
+							<li className="phone"><a href="tel:502-899-2384" style={{backgroundImage: "url(../components/img/android-color.png)"}}>(502)899-2384 (work)</a></li>
+							<li className="linkedin"><a href="https://www.linkedin.com/in/egraytech/" style={{backgroundImage: "url(../components/img/linkedin-color.png)"}}>EGrayTech LinkedIn Profile</a></li>
+							<li className="mail"><a href="mailto:corgidev@outlook.com?subject=Email from CorgiDev site" style={{backgroundImage: "url(../components/img/google-color.png)"}}>corgidev@outlook.com</a></li>
+							<li className="twitter"><a href="https://twitter.com/intent/tweet?screen_name=egraytech" style={{backgroundImage: "url(../components/img/twitter-color.png)"}}>@egraytech</a></li>
+							<li className="github"><a href="https://github.com/EGrayTech" target="_blank" rel="noopener noreferrer" style={{backgroundImage: "url(../components/img/github-color.png)"}}>EGrayTech GitHub Profile</a></li>
 						</ul>
 					</section>
 

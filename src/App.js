@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
+import './components/styles/normalize.css';
 import './App.css';
+
 import Home from './views/Home';
 import Accessibility from './views/Accessibility';
 import AboutMe from './views/AboutMe';

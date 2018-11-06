@@ -1,0 +1,15 @@
+/******************************************
+PAGE: ABOUT
+******************************************/
+.profile-photo {
+    display: block; /** Using Block allows us to center the image using margins. Default is inline. **/
+    max-width: 175px;
+    /* margin: 0 auto 30px; */
+    margin: 0 30px 60px 0px;
+    border-radius: 100%;
+    border: 2px solid #f1c40f;
+}
+
+.about-header {
+    margin: 0;
+}
