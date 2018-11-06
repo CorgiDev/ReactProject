@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
+//Imports first css files
 import './components/styles/normalize.css';
 import './App.css';
 
+//Imports other page bodies
 import Home from './views/Home';
 import Accessibility from './views/Accessibility';
 import AboutMe from './views/AboutMe';
