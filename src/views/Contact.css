@@ -47,8 +47,9 @@ Geeral Styling
 Form Styling
 *************************/
 .formLabel {
-    font-weight: bold;
-    color:#714f02;
+    /* font-weight: bold;
+    color:#714f02; */
+    clear: both;
 }
 
 .formTitle {
