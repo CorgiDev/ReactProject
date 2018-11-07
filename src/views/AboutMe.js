@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 //Main CSS file for page
 import './AboutMe.css';
@@ -14,6 +15,9 @@ export default class AboutMe extends Component {
 	render () {                                   
 		return (
 		  	<div id='container'>
+				<Helmet>
+					<title>CorgiDev: About Me Page</title>
+				</Helmet>
 				<Header />
 				<div id='wrapper'>
 					<section>
