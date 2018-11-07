@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 //Main CSS file for page
 import './Accessibility.css';
@@ -14,12 +15,15 @@ export default class Accessibility extends Component {
   render () {                                   
       return (
         <div id='container'>
-			<Header />
-			<div id='wrapper'>
-				<p>Future home of the Accessibility page.</p>
-				<Footer />
-			</div>
-		</div>
+          <Helmet>
+				  	<title>CorgiDev: Accessibility Page</title>
+				  </Helmet>
+			    <Header />
+			    <div id='wrapper'>
+				    <p>Future home of the Accessibility page.</p>
+				    <Footer />
+			    </div>
+		    </div>
       )
    }
 }

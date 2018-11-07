@@ -31,6 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [ReactStrap](https://reactstrap.github.io/) - Easy to use React Bootstrap 4 components.
 * [React-Router-Dom](https://www.npmjs.com/package/react-router-dom) - This is a module of the React Router package.
 * [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [React-Helmet](https://jaketrent.com/post/change-page-title-in-react/) - Allows you to set anything in the head of the document.
 
 ## Notes
 
