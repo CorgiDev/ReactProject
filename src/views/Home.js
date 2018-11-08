@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 //Main CSS file for page
 import './Home.css';
@@ -16,6 +17,9 @@ export default class Home extends Component {
 	render () {                                   
 		return (
 			<div id='container'>
+				<Helmet>
+					<title>Welcome to CorgiDev!</title>
+				</Helmet>
 				<Header />
 				<div id='wrapper'>
 			  		<h1 className="mainHeadline">Welcome to CorgiDev!</h1>	

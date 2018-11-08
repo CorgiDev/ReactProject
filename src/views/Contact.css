@@ -21,6 +21,10 @@ Geeral Styling
     margin: 0 0 10px;
 }
 
+.bottomP {
+    margin: 10px 0;
+}
+
 /*
 .contact-info li.phone a {
     background-image: url('../components/img/android-color.png');
@@ -41,24 +45,27 @@ Geeral Styling
 .contact-info li.github a {
     background-image: url('../components/img/github-color.png');
 }
+
+The above commented out section will not render for some reason and causes errors. 
+I tried adding them as inline as shown on the line below:
+style={{backgroundImage: "url(../components/img/android-color.png)"}}
+However, that still did not work.
 */
 
 /**************************
 Form Styling
 *************************/
-.formLabel {
-    /* font-weight: bold;
-    color:#714f02; */
-    clear: both;
-}
-
-.formTitle {
+#contactForm label {
     font-weight: bold;
     color:#714f02;
 }
 
-.formHeader {
+#contactForm input {
+    margin: 8px 0;
+    padding: 5px 0;
+}
+
+.formTitle {
     font-weight: bold;
-    font-size: 1.5em;
     color:#714f02;
 }
