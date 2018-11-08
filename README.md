@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Open a terminal and navigate to inside the root folder of the project.
 3. Use the command 'npm install' to install any missing plugins needed by the site.
 4. Type 'npm start' to start the site running. Leave the terminal open while viewing the site or it will stop running.
-5. In a browser window, navigate to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work.
+5. The way this is set up it may open a browser window automatically. In case it does not, open a browser window and naviagte to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work.
 6. 
 7. 
 8. 
@@ -31,6 +31,8 @@ These instructions will get you a copy of the project up and running on your loc
 * [ReactStrap](https://reactstrap.github.io/) - Easy to use React Bootstrap 4 components.
 * [React-Router-Dom](https://www.npmjs.com/package/react-router-dom) - This is a module of the React Router package.
 * [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [React-Context]{https://reactjs.org/docs/context.html} - Provides a way to share values between components without having to pass a prop through every level.
+* [Redux](https://redux.js.org/) - An open-source JavaScript library for managing application state.
 * [React-Helmet](https://jaketrent.com/post/change-page-title-in-react/) - Allows you to set anything in the head of the document.
 
 ## Notes
@@ -45,16 +47,16 @@ These instructions will get you a copy of the project up and running on your loc
 * U
 
 ## Project Requirements
-1. Responsive design (can be done with bootstrap)
-2. Project is a React application capable of implementing the React framework.
-3. At least 3 nagivatable routes using React Router
-4. Must consume an API of your choosing. The API must accomplish one of the following:
+- [x] Responsive design (can be done with bootstrap)
+- [x] Project is a React application capable of implementing the React framework.
+- [x] At least 3 nagivatable routes using React Router
+- [x] Must consume an API of your choosing. The API must accomplish one of the following:
     1. Fully CRUD-supported API and implement all 4 CRUD operations (Create, Read, Update, and Delete)
     2. Select a read-only API and implement a "rich" interface using multiple resources. You should implement/read at least 5 resources, but are encouraged to pull in many elements.
-5. Your code has comments
-6. Must include a ReadMe.md located in the top level directory of your project, which includes the following:
+- [x] Your code has comments
+- [x] Must include a ReadMe.md located in the top level directory of your project, which includes the following:
     1. A brief description of your project’s purpose and functionality (ex: “My Code Louisville FSJS Project. A web app designed to let users create their own To-Do lists, add items to the lists, and mark them as complete.”)
     2. Detailed steps of how to start the application, and any prerequisites to run it.
-7. Your code is in a GitHub repo on your own GitHub account.
-8. You cannot re-use a sample Treehouse project.
-9. Exceptions may be granted to these requirements if you have a particular project in mind that does not meet these requirements. Please discuss with your mentors or Brian if you have a project in mind.
+- [x] Your code is in a GitHub repo on your own GitHub account.
+- [x] You cannot re-use a sample Treehouse project.
+- [x] Exceptions may be granted to these requirements if you have a particular project in mind that does not meet these requirements. Please discuss with your mentors or Brian if you have a project in mind.

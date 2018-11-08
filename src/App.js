@@ -6,7 +6,7 @@ import './App.css';
 
 //Imports other page bodies
 import Home from './views/Home';
-import Accessibility from './views/Accessibility';
+import Accessibility from './views/Blog';
 import AboutMe from './views/AboutMe';
 import Contact from './views/Contact';
 
@@ -22,7 +22,7 @@ class App extends Component {
               <Home />
             </div>
           )}/>
-          <Route exact={true} path='/Accessibility' render={() => (
+          <Route exact={true} path='/Blog' render={() => (
             <div className="App">
               <Accessibility />
             </div>
