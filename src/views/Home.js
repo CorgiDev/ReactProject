@@ -26,7 +26,7 @@ export default class Home extends Component {
 					<section>
 						<ul id="gallery">
 							<li>
-								<a href={"./img/japan.jpg"} data-lightbox="myGallery" data-title="My friend Rina, my boyfriend Mitch, and I in Tokyo, Japan.">
+								<a href={"./img/japan.jpg"}>
 									<figure>
 										<img src={"./img/japan.jpg"} alt="" />
 										<figcaption>My friend Rina, my boyfriend Mitch, and I in Tokyo, Japan. Click for full image.</figcaption>
@@ -34,7 +34,7 @@ export default class Home extends Component {
 								</a>
 							</li>
 							<li>
-								<a href={"./img/kabukiza-full.jpg"} data-lightbox="myGallery" data-title="Photo of me with a woman in a beautiful kimono at a shop in Kubukiza.">
+								<a href={"./img/kabukiza-full.jpg"}>
 									<figure>
 										<img src={"./img/kabukiza.jpg"} alt="" />
 										<figcaption>Photo of me with a woman in a beautiful kimono at a shop in Kubukiza. Click for full image.</figcaption>
@@ -42,7 +42,7 @@ export default class Home extends Component {
 								</a>
 							</li>
 							<li>
-								<a href={"./img/ghibli-full.jpg"} data-lightbox="myGallery" data-title="Photo of me in front of the Laputa robot statue at the Ghibli Museum in Mikata, Tokyo, Japan.">
+								<a href={"./img/ghibli-full.jpg"}>
 									<figure>
 										<img src={"./img/ghibli.jpg"} alt="" />
 										<figcaption>Photo of me in front of the "Laputa robot statue at the Ghibli Museum in Mikata, Tokyo, Japan. Click for full image.</figcaption>
@@ -50,7 +50,7 @@ export default class Home extends Component {
 								</a>
 							</li>
 							<li>
-								<a href={"./img/rolexes-full.jpg"} data-lightbox="myGallery" data-title="Me at the Rolexes near Lexington, KY in 2016.">
+								<a href={"./img/rolexes-full.jpg"}>
 									<figure>
 										<img src={"./img/rolexes.jpg"} alt="" />
 										<figcaption>Me at the Rolexes near Lexington, KY in 2016. Click for full image.</figcaption>
@@ -58,7 +58,7 @@ export default class Home extends Component {
 								</a>
 							</li>
 							<li>
-								<a href={"./img/zelda-full.jpg"}  data-lightbox="myGallery" data-title="A screenshot of Link next to the Giant Horse in the Nintendo Switch game 'Legend of Zelda: Breath of the Wild'.">
+								<a href={"./img/zelda-full.jpg"}>
 									<figure>
 										<img src={"./img/zelda.jpg"} alt="" />
 										<figcaption>A screenshot of Link next to the Giant Horse in the Nintendo Switch game "Legend of Zelda: Breath of the Wild". Click for full image.</figcaption>

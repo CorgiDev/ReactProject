@@ -9,7 +9,7 @@ import AllPost from '../components/PostForm';
 import PostForm from '../components/AllPost';
 import Footer from '../components/Footer';
 
-export default class Accessibility extends Component { 
+export default class Blog extends Component { 
   state = { 
   }
   
@@ -18,14 +18,11 @@ export default class Accessibility extends Component {
         <div id='container'>
 			    <Header />
 			    <div id='wrapper'>
-				    <h2 id='headline'>
-              CorgiDev Blog!
-            </h2>
             <div id='primary'>
-              <PostForm />
+              <AllPost />
             </div>
             <div id='secondary'>
-              <AllPost />
+              <PostForm />
             </div>
 				    <Footer />
 			    </div>

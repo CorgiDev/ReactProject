@@ -8,7 +8,6 @@ import EditComponent from './EditComponent';
 
 //Imports the needed css files
 import '../components/AllPost.css';
-import './styles/responsive.css';
 
 class AllPost extends Component {
     render() {

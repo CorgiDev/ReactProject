@@ -1,0 +1,23 @@
+.singlePost {
+    margin-bottom: 10px;
+    background-color: lightslategray;
+    border-radius: 1ch;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.postTitle {
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+
+.postBody {
+    color: white;
+}
+
+.btn {
+    margin: 5px;
+}

@@ -4,7 +4,6 @@ import {connect} from 'react-redux';
 
 //Imports needed css
 import '../components/PostForm.css';
-import './styles/responsive.css';
 
 class PostForm extends Component {
     handleSubmit = (e) => {
@@ -31,10 +30,10 @@ class PostForm extends Component {
      <input required type="text" ref={(input)=>this.getTitle = input} 
       placeholder="Enter Post Title"/>
      <br /><br />
-     <textarea required rows="5" ref={(input)=>this.getMessage = input} cols="28" 
+     <textarea required rows="10" ref={(input)=>this.getMessage = input} cols="35" 
       placeholder="Enter Post" />
      <br /><br />
-     <button>Post</button>
+     <button className="btn btn-primary">Post</button>
     </form>
   </div>
   );
