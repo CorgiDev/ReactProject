@@ -1,0 +1,23 @@
+form {
+    background-color: lightslategray;
+    padding: 20px;
+    border-radius: 1ch;
+}
+
+input {
+    border-radius: 6px;
+    padding: 7px;
+    max-width: 100%;
+}
+
+textarea {
+    border-radius: 6px;
+    margin-bottom: -15px;
+    padding: 5px;
+    max-width: 99%;
+}
+
+.btn-primary {
+    margin-top: 0px;
+    padding: 4px 20px;
+}
