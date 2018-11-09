@@ -16,14 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 1. We will start by assuming you have downloaded the project from GitHub to your pc. If not, how are you reading this? ಠ_ಠ
 2. Open a terminal and navigate to inside the root folder of the project.
-3. Use the command 'npm install' to install any missing plugins needed by the site.
+3. Use the command 'npm install' to install any missing plugins needed by the site. This may take a few minutes.
 4. Type 'npm start' to start the site running. Leave the terminal open while viewing the site or it will stop running.
 5. The way this is set up it may open a browser window automatically. In case it does not, open a browser window and naviagte to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work.
-6. 
-7. 
-8. 
-9. Contemplate where you went wrong in life. ಥ﹏ಥ
-10. (╯°□°）╯︵ ┻━┻
 
 ## Built With
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A dynamic programming language generally used to add dynamic features to a website.
@@ -41,6 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Authors
 
 * **[EGrayTech](https://github.com/EGrayTech)** - *Initial work*
+(╯°□°）╯︵ ┻━┻
 
 ## Acknowledgments
 
