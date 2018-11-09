@@ -28,10 +28,10 @@ These instructions will get you a copy of the project up and running on your loc
 ## Built With
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A dynamic programming language generally used to add dynamic features to a website.
 * [React](https://reactjs.org/) - A JavaScript library.
-* [ReactStrap](https://reactstrap.github.io/) - Easy to use React Bootstrap 4 components.
+* [BootStrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - A popular framework that allows for easier visual customization.
 * [React-Router-Dom](https://www.npmjs.com/package/react-router-dom) - This is a module of the React Router package.
 * [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [React-Context]{https://reactjs.org/docs/context.html} - Provides a way to share values between components without having to pass a prop through every level.
+* [React-Context](https://reactjs.org/docs/context.html) - Provides a way to share values between components without having to pass a prop through every level.
 * [Redux](https://redux.js.org/) - An open-source JavaScript library for managing application state.
 * [React-Helmet](https://jaketrent.com/post/change-page-title-in-react/) - Allows you to set anything in the head of the document.
 
