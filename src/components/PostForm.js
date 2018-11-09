@@ -33,7 +33,7 @@ class PostForm extends Component {
      <textarea required rows="5" ref={(input)=>this.getMessage = input} cols="28" 
       placeholder="Enter Post" />
      <br /><br />
-     <button color="primary">Post</button>
+     <button className="btn btn-primary">Post</button>
     </form>
   </div>
   );

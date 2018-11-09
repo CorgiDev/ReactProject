@@ -32,7 +32,7 @@ export default class Contact extends Component {
 							<label for="userName">Name: </label><input type="text" name="userName" id="userName" required /><br />
 							<label for="userEmail">Email: </label><input type="email" name="userEmail" id="userEmail" required /><br />
 							<label for="userMessage">Comments: </label><textarea name="userMessage" cols="40" rows="10" maxlength="1000" id="userMessage" required></textarea><br />
-							<button type="submit">Submit</button> <button type="reset" value="Reset">Reset</button>
+							<button type="submit" className="btn btn-primary">Submit</button> <button type="reset" value="Reset" className="btn btn-warning">Reset</button>
 						</form>
 					</section>
 					<Footer />
