@@ -1,3 +1,16 @@
 .singlePost {
     margin-bottom: 10px;
+    background-color: lightslategray;
+    border-radius: 1ch;
+    padding: 15px;
+}
+
+.postTitle {
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+}
+
+.postBody {
+    color: white;
 }
