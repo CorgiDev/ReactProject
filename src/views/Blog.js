@@ -19,10 +19,10 @@ export default class Blog extends Component {
 			    <Header />
 			    <div id='wrapper'>
             <div id='primary'>
-              <PostForm />
+              <AllPost />
             </div>
             <div id='secondary'>
-              <AllPost />
+              <PostForm />
             </div>
 				    <Footer />
 			    </div>

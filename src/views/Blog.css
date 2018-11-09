@@ -1,15 +1,3 @@
-.primaryColumn {
-    float: left;
-    clear: left;
-    max-height: 100%;
-}
-
-.secondaryColumn {
-    float: right;
-    clear: right;
-    max-height: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
