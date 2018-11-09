@@ -5,52 +5,10 @@ PAGE: CONTACT
 /**************************
 Geeral Styling
 *************************/
-.contact-info {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.9;
-}
-
-.contact-info a {
-    display: block;
-    min-height: 20px;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding: 0 0 0 30px;
-    margin: 0 0 10px;
-}
 
 .bottomP {
     margin: 10px 0;
 }
-
-/*
-.contact-info li.phone a {
-    background-image: url('../components/img/android-color.png');
-}
-
-.contact-info li.linkedin a {
-    background-image: url('../components/img/linkedin-color.png');
-}
-
-.contact-info li.mail a {
-    background-image: url('../components/img/google-color.png');
-}
-
-.contact-info li.twitter a {
-    background-image: url('../components/img/twitter-color.png');
-}
-
-.contact-info li.github a {
-    background-image: url('../components/img/github-color.png');
-}
-
-The above commented out section will not render for some reason and causes errors. 
-I tried adding them as inline as shown on the line below:
-style={{backgroundImage: "url(../components/img/android-color.png)"}}
-However, that still did not work.
-*/
 
 /**************************
 Form Styling

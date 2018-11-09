@@ -4,13 +4,17 @@ import { connect } from 'react-redux';
 
 //Imports the needed css files
 import '../components/Post.css';
-import './styles/responsive.css';
+
+var postStyle = {
+  fontWeight: "normal",
+  color: "#714f02",
+};
 
 class Post extends Component {
     render() {
     return (
-      <div>
-        <h2>{this.props.post.title}</h2>
+      <div className="singlePost">
+        <u><h3 className='postTitle' style={postStyle}>{this.props.post.title}</h3></u>
         <p>{this.props.post.message}</p>
         <button
          onClick={()=>this.props.dispatch({type:'EDIT_POST',id:this.props.post.id})}>
