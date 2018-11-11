@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Node.js version 10.5.0
-* Npm version 6.4.1
+* Node.js version 10.5.0+
+* Npm version 6.4.1+
 * A browser (tested with Google Chrome, IE, Edge and FireFox)
 * A terminal that can use bash commands. GitBash recommended.
 
