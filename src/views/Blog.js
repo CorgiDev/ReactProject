@@ -18,10 +18,10 @@ export default class Blog extends Component {
         <div id='container'>
 			    <Header />
 			    <div id='wrapper'>
-            <div id='primary'>
+            <div id='primary blogList'>
               <AllPost />
             </div>
-            <div id='secondary'>
+            <div id='secondary blogForm'>
               <PostForm />
             </div>
 				    <Footer />

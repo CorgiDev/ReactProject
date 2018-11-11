@@ -163,3 +163,11 @@ color:#fff;
 .subHeader {
     color:#714f02;
 }
+
+.primary {
+    clear: right;
+}
+
+.secondary {
+    clear: left;
+}
