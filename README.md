@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Acknowledgments
 
-* U
+* Patrick Chakravorty (Software Developer) - His article,[Redux-A CRUD Example](https://codeburst.io/redux-a-crud-example-abb834d763c9), on creating a CRUD app with Redux and React-Context really helped me to have a better grasp of how things work in general.
 
 ## Project Requirements
 - [x] Responsive design (can be done with bootstrap)
