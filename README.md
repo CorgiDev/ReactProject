@@ -1,6 +1,6 @@
 # React Project
 
-The purpose of this project is to demonstrate what I have learned about JavaScript/React thus far. This project will be a generic clinic website with a health API integrated into it.
+The purpose of this project is to demonstrate what I have learned about JavaScript/React thus far. This project will be a recreation of my [CorgiDev website](http://corgidev.com).
 
 ## Getting Started
 
@@ -16,9 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 1. Stop reading this for a moment and go download the project from GitHub.
 2. Open a terminal and navigate to inside the root folder of the project.
-3. Use the command 'npm install' to install any missing plugins needed by the site. This may take a few minutes. ಠ_ಠ
-4. Type 'npm start' to start the site running. Leave the terminal open while viewing the site or it will stop running.
-5. The way this is set up it may open a browser window automatically. In case it does not, open a browser window and naviagte to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work.
+3. Use the command 'npm install' to install any missing plugins needed by the site. This may take a few minutes......... ಠ_ಠ
+4. Type 'npm start' to start the site running. Leave the terminal open while viewing the site or it will stop running. 
+5. The way this is set up it may open a browser window automatically. In case it does not, open a browser window and naviagte to 'localhost:3000' to access the site. The terminal will also provide you with an 'ipaddress:3000' version of the web address. This can be used as an alternative in the event that the localhost:3000 option does not work. The initial load of the page sometimes takes a moment. If it opens a page that says it can't load the page, wait a moment and then refresh the page. For some reason I have had that happen off and on.
 
 ## Built With
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A dynamic programming language generally used to add dynamic features to a website.
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [React-Helmet](https://jaketrent.com/post/change-page-title-in-react/) - Allows you to set anything in the head of the document.
 
 ## Notes
-
+None
 
 ## Authors
 

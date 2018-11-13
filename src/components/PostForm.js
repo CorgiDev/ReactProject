@@ -11,14 +11,11 @@ class PostForm extends Component {
       const title = this.getTitle.value;
       const message =  this.getMessage.value;
       const data = {
-        id: new Date(),
         title,
         message,
-        editing:false
       }
-      this.props.dispatch({
-        type:'ADD_POST',
-        data});
+      this.props.createPost(
+        data);
       this.getTitle.value = '';
       this.getMessage.value = '';
     }

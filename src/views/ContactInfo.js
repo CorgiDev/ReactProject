@@ -39,11 +39,11 @@ export default class ContactInfo extends Component {
                 
                 <h3 id="contactDetails">Contact Details</h3>
                 <ul className="contact-info">
-                    <li className="phone"><a href="tel:502-899-2384" style={phoneImage}>(502)899-2384 (work)</a></li>
-                    <li className="linkedin"><a href="https://www.linkedin.com/in/egraytech/" style={linkedInImage}>EGrayTech LinkedIn Profile</a></li>
+                    <li className="phone"><a href="tel:502-899-2384" ariaDisabled="true" style={phoneImage}>No phone number currently</a></li>
+                    <li className="linkedin"><a href="https://www.linkedin.com/in/corgidev/" style={linkedInImage}>Elizabeth Gray LinkedIn Profile</a></li>
                     <li className="mail"><a href="mailto:corgidev@outlook.com?subject=Email from CorgiDev site"style={mailImage}>corgidev@outlook.com</a></li>
                     <li className="twitter"><a href="https://twitter.com/intent/tweet?screen_name=egraytech" style={twitterImage}>@egraytech</a></li>
-                    <li className="github"><a href="https://github.com/EGrayTech" target="_blank" rel="noopener noreferrer" style={gitHubImage}>EGrayTech GitHub Profile</a></li>
+                    <li className="github"><a href="https://github.com/CorgiDev" target="_blank" rel="noopener noreferrer" style={gitHubImage}>CorgiDev GitHub Profile</a></li>
                 </ul>
             </section>
         )
