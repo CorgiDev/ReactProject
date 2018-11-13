@@ -76,3 +76,7 @@ header {
     border-bottom: 5px solid #f1c40f;
     margin-bottom: 60px;
 }
+
+a {
+    text-decoration: none;
+}
