@@ -1,6 +1,6 @@
 # React Project
 
-The purpose of this project is to demonstrate what I have learned about JavaScript/React thus far. This project will be a recreation of my [CorgiDev website](http://corgidev.com).
+The purpose of this project is to demonstrate what I have learned about JavaScript/React thus far. This project will be a recreation of my [CorgiDev website](http://corgidev.com). I added an extra blog page that interacts with an API to display posts and a form to add posts.
 
 ## Getting Started
 
@@ -28,18 +28,18 @@ These instructions will get you a copy of the project up and running on your loc
 * [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Redux](https://redux.js.org/) - An open-source JavaScript library for managing application state.
 * [React-Helmet](https://jaketrent.com/post/change-page-title-in-react/) - Allows you to set anything in the head of the document.
+* [Firebase](https://firebase.google.com/) - Firebase is a set of app tools offered by Google to help with hosting, storage, authentication, and more. I used their database tools.
 
 ## Notes
 None
 
 ## Authors
 
-* **[EGrayTech](https://github.com/EGrayTech)** - *Initial work*
-(╯°□°）╯︵ ┻━┻
+* **[EGrayTech](https://github.com/EGrayTech)** - *Initial work* - (╯°□°）╯︵ ┻━┻
 
 ## Acknowledgments
 
-* **Patrick Chakravorty (Software Developer)** - His article,[Redux-A CRUD Example](https://codeburst.io/redux-a-crud-example-abb834d763c9), on creating a CRUD app with Redux and React-Context really helped me to have a better grasp of how things work in general.
+* **Patrick Chakravorty (Software Developer)** - His article,[Redux-A CRUD Example](https://codeburst.io/redux-a-crud-example-abb834d763c9), on creating a CRUD app with Redux and React-Context really helped me to have a better grasp of how things work in general. Though I ended up swapping out a lot of what he did in order to connect to a Firebase database for data persistence and an API connection.
 
 ## Project Requirements
 - [x] Responsive design (can be done with bootstrap)
